@@ -2,35 +2,6 @@
 
 An interactive business intelligence dashboard built with **Streamlit** and **Plotly**. It combines acquisition, retention, regional demand and checkout testing in one app.
 
-**Live dashboard:** <paste your Streamlit Community Cloud URL here>
-
-> All data is synthetic and provided for learning only. Nothing here represents real Workora business results.
-
-## Run locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## Deploy for a public URL
-
-1. Push this folder (`app.py`, `requirements.txt`, `data_analytics_dashboard_bundle.zip`, `data/`) to a public GitHub repository.
-2. Go to https://share.streamlit.io and sign in with GitHub.
-3. Choose **New app**, select the repository, set the main file to `app.py`, and deploy.
-4. Copy the public URL into the line above and into your submission.
-
-## Data sources
-
-`app.py` reads the four CSVs straight from `data_analytics_dashboard_bundle.zip` (the last upload). The `data/` folder holds identical copies and is only a fallback.
-
-
-| File | Rows | Used for |
-|---|---|---|
-| `web_traffic.csv` | 900 | Sessions, funnel, registration rate |
-| `customer_churn.csv` | 605 raw, 600 cleaned | Active customers, churn, retention drivers |
-| `regional_market.csv` | 400 | Market map and city summary |
-| `checkout_ab_test.csv` | 1,200 | Revenue, average ticket size, A/B test |
 
 ## Dashboard contents
 
